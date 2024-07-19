@@ -1,0 +1,11 @@
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 2px solid #007bff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
